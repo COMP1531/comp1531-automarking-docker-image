@@ -1,9 +1,9 @@
 # comp1531/automarking
 
-Base image for COMP1531 Gitlab runners.
+Base image for [COMP1531](https://webcms3.cse.unsw.edu.au/COMP1531/23T2/outline) Gitlab runners.
 
 - Github: https://github.com/nktnet1/comp1531-automarking-docker-image
-- Docker: https://hub.docker.com/repository/docker/comp1531/automarking/general
+- Docker: https://hub.docker.com/repository/docker/comp1531/automarking
 
 ## Dockerfile
 
