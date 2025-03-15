@@ -8,7 +8,7 @@ Base image for [COMP1531](https://webcms3.cse.unsw.edu.au/COMP1531/23T2/outline)
 ## Dockerfile
 
 ```dockerfile
-FROM node:18-bullseye-slim
+FROM node:20-bullseye-slim
 
 RUN apt-get update -y &&            \
     apt-get install -y              \
