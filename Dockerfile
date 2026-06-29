@@ -7,6 +7,7 @@ RUN apt-get update -y &&            \
         procps                      \
         net-tools                   \
         ca-certificates &&          \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* &&  \
+    npm install -g npm@11.13.0
 
 CMD ["/bin/bash"]
